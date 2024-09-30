@@ -10,7 +10,7 @@ def load_config(config_path):
 
 if __name__ == '__main__':
     if len(sys.argv) != 2:
-        print("Usage: python notion_random_page.py <config_file>")
+        print("Usage: python show_notion_random_page.py <config_file>")
         sys.exit(1)
 
     config_path = sys.argv[1]
